@@ -9,8 +9,8 @@ import routes from "./routes";
 export default () => {
   return new Router({
     routes,
-    mode: "history", //hash '#' history 无 #
-    // base: "/test/",
+    //mode: "history", //hash '#' history 无 #
+    base: "/tysys/",
     linkActiveClass: "active-link", //router-link
     linkExactActiveClass: "exact-active-link",
     scrollBehavior(to, from, savedPosition) {
